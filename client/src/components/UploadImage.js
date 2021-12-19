@@ -19,7 +19,7 @@ const UploadImage = () => {
 		formData.append("photo", image.photo);
 		setLoading(true);
 		axios
-			.post("https://alvindev-img-uploader.herokuapp.com/upload/", formData)
+			.post("/upload/add", formData)
 			.then((res) => {
 				console.log(res.data);
 				setLoading(false);

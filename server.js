@@ -9,7 +9,7 @@ require("dotenv").config();
 
 const port = process.env.PORT || 8000;
 
-mongoose.connect(process.env.ATLAS_URI || "mongodb://localhost/mern_youtube", {
+mongoose.connect(process.env.ATLAS_URI, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });
