@@ -59,7 +59,11 @@ const ViewImage = () => {
 						</CopyToClipboard>
 
 						<form className="text-xs">
-							<input className="w-full" value={`/images/${review}`} disabled />
+							<input
+								className="w-full"
+								value={`https://alvindev-img-uploader.herokuapp.com/images/${review}`}
+								disabled
+							/>
 						</form>
 					</div>
 				</div>
