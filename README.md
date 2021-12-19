@@ -38,6 +38,7 @@
 ## Overview
 
 ![screenshot](https://alvindev-img-uploader.herokuapp.com/images/c9f30bdd-ea6c-4aa9-9da8-89911f25fe07-1639919667995.JPG)
+
 I built a image uploader website by following challenge from devchallenges.io. This is my first project that I build with MERN stack, I got a lot of error from this challenge. But because from this challenge, I also can learn much more about backend especially nodeJS and mongoDB.
 
 ### Built With
@@ -84,5 +85,5 @@ $ npm start
 ## Contact
 
 - Website [alvindev.netlyfy.app](https://alvindev.netlify.app/)
-- GitHub [@yalvintriseptia](https://{github.com/alvintriseptia})
+- GitHub [@alvintriseptia](https://{github.com/alvintriseptia})
 - Linkedin [Alvin Triseptia Mairis](https://www.linkedin.com/in/alvin-triseptia-mairis/)
