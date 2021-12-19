@@ -39,7 +39,7 @@
 
 ![screenshot](https://alvindev-img-uploader.herokuapp.com/images/c9f30bdd-ea6c-4aa9-9da8-89911f25fe07-1639919667995.JPG)
 
-I built a image uploader website by following challenge from devchallenges.io. This is my first project that I build with MERN stack, I got a lot of error from this challenge. But because from this challenge, I also can learn much more about backend especially nodeJS and mongoDB.
+I built a image uploader website by following challenge from devchallenges.io. This is my first project that I build with MERN stack, I got a lot of error from this challenge. But because from this challenge, I am also can learn much more about backend especially nodeJS and mongoDB.
 
 ### Built With
 
@@ -66,7 +66,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/alvintriseptia/image-uploader.git
 
 # Install dependencies
 $ npm install
