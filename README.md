@@ -39,7 +39,7 @@
 
 ![screenshot](https://alvindev-img-uploader.herokuapp.com/images/c9f30bdd-ea6c-4aa9-9da8-89911f25fe07-1639919667995.JPG)
 
-I built a image uploader website by following challenge from devchallenges.io. This is my first project that I build with MERN stack, I got a lot of error from this challenge. But because from this challenge, I am also can learn much more about backend especially nodeJS and mongoDB.
+I built a image uploader website by following challenge from devchallenges.io. This is the first project that I build with the MERN stack, I got a lot of errors from this challenge. But because of this challenge, I am also can learn much more about the backend especially nodeJS and MongoDB.
 
 ### Built With
 
