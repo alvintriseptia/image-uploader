@@ -85,5 +85,5 @@ $ npm start
 ## Contact
 
 - Website [alvindev.netlyfy.app](https://alvindev.netlify.app/)
-- GitHub [@alvintriseptia](https://{github.com/alvintriseptia})
+- GitHub [@alvintriseptia](https://github.com/alvintriseptia)
 - Linkedin [Alvin Triseptia Mairis](https://www.linkedin.com/in/alvin-triseptia-mairis/)
