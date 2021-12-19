@@ -10,10 +10,9 @@ const ViewImage = () => {
 
 	const getImg = () => {
 		const headers = { "Content-Type": "application/json" };
-		const endpoint = "http://localhost:8000/upload";
 		setLoading(true);
 		axios
-			.get(endpoint, { headers })
+			.get("/upload", { headers })
 			.then((res) => {
 				setLoading(false);
 				setReview(res.data[res.data.length - 1].photo);

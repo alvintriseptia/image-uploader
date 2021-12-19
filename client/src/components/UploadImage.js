@@ -19,7 +19,7 @@ const UploadImage = () => {
 		formData.append("photo", image.photo);
 		setLoading(true);
 		axios
-			.post("http://localhost:8000/upload/add", formData)
+			.post("/upload/add", formData)
 			.then((res) => {
 				console.log(res.data);
 				setLoading(false);
