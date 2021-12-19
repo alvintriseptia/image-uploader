@@ -49,7 +49,7 @@ const ViewImage = () => {
 					<div className=" h-56 w-full bg-gray-100 rounded-lg flex justify-center items-center">
 						<img
 							className="w-full h-full object-contain"
-							src={`http://localhost:8000/images/${review}`}
+							src={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
 							alt="review"
 						/>
 					</div>
@@ -66,7 +66,7 @@ const ViewImage = () => {
 							<input
 								className="w-full"
 								ref={textAreaRef}
-								value={`http://localhost:8000/images/${review}`}
+								value={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
 								disabled
 							/>
 						</form>
