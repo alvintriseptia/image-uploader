@@ -1,12 +1,12 @@
 import axios from "axios";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Loading from "./Loading";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const ViewImage = () => {
 	const [loading, setLoading] = useState(false);
 	const [review, setReview] = useState(null);
-	const [copySuccess, setCopySuccess] = useState(false);
-	const textAreaRef = useRef(null);
+	const [copied, setCopied] = useState(false);
 
 	const getImg = () => {
 		const headers = { "Content-Type": "application/json" };
@@ -20,15 +20,6 @@ const ViewImage = () => {
 			.catch((err) => {
 				throw err;
 			});
-	};
-
-	const copyToClipboard = (e) => {
-		textAreaRef.current.select();
-		document.execCommand("copy");
-		// This is just personal preference.
-		// I prefer to not show the whole text area selected.
-		e.target.focus();
-		setCopySuccess(true);
 	};
 
 	useEffect(() => {
@@ -55,17 +46,21 @@ const ViewImage = () => {
 					</div>
 
 					<div className="relative w-full h-8 rounded-lg border border-gray-400 px-2 py-2">
-						<button
-							className="absolute right-0 top-0 px-4 py-2 bg-blue-500 text-xs rounded-lg text-white font-medium"
-							onClick={copyToClipboard}
+						<CopyToClipboard
+							text={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
+							onCopy={() => setCopied(true)}
 						>
-							{copySuccess ? "Copy Success" : "Copy Link"}
-						</button>
+							<button
+								className="absolute right-0 top-0 px-4 py-2 bg-blue-500 text-xs rounded-lg text-white font-medium"
+								onCopy={() => setCopied(true)}
+							>
+								{copied ? "Copy Success" : "Copy Link"}
+							</button>
+						</CopyToClipboard>
 
 						<form className="text-xs">
 							<input
 								className="w-full"
-								ref={textAreaRef}
 								value={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
 								disabled
 							/>
