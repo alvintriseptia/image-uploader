@@ -40,14 +40,14 @@ const ViewImage = () => {
 					<div className=" h-56 w-full bg-gray-100 rounded-lg flex justify-center items-center">
 						<img
 							className="w-full h-full object-contain"
-							src={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
+							src={`https://alvindev-img-uploader.herokuapp.com/images/${review}`}
 							alt="review"
 						/>
 					</div>
 
 					<div className="relative w-full h-8 rounded-lg border border-gray-400 px-2 py-2">
 						<CopyToClipboard
-							text={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
+							text={`https://alvindev-img-uploader.herokuapp.com/images/${review}`}
 							onCopy={() => setCopied(true)}
 						>
 							<button
@@ -61,7 +61,7 @@ const ViewImage = () => {
 						<form className="text-xs">
 							<input
 								className="w-full"
-								value={`https://ancient-shelf-48453.herokuapp.com/images/${review}`}
+								value={`https://alvindev-img-uploader.herokuapp.com/images/${review}`}
 								disabled
 							/>
 						</form>

@@ -41,5 +41,5 @@
 	"devDependencies": {
 		"tailwindcss": "^3.0.5"
 	},
-	"proxy": "https://ancient-shelf-48453.herokuapp.com/"
+	"proxy": "https://alvindev-img-uploader.herokuapp.com/"
 }
